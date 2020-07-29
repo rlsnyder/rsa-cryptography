@@ -44,7 +44,7 @@ public class EntryPoint
 					System.out.println(); // Just adds some spacing
 					System.out.print("Have more to encrypt / decrypt? (Y / N): ");
 					
-          // Scanner has no nextChar() method, so I just use nextLine() method then store the first char of the nextLine.
+          				// Scanner has no nextChar() method, so I just use nextLine() method then store the first char of the nextLine.
 					char moreResponse = in.nextLine().charAt(0);
 					moreResponse = Character.toUpperCase(moreResponse); // Makes response uppercase so I don't have to worry about case.
 					
@@ -91,7 +91,7 @@ public class EntryPoint
 				System.out.println();
 				
 				// Use of the delimter in Scanner requires these odd input format requirements.
-        System.out.println("Below, there can be no spaces, and two commas must be added to end of input.");
+        			System.out.println("Below, there can be no spaces, and two commas must be added to end of input.");
 				System.out.print("Decryption request: ");
 				
 				// There's probably a spiffier way to do this, but I simply store the first value, then use a loop to store all the rest in
