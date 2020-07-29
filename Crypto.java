@@ -9,7 +9,7 @@ import java.util.*;
 public class Crypto
 {	
 	// _E and _n comprise the public key, and are therefore okay to store in plaintext.
-  private static final int _E = 9500003;
+  	private static final int _E = 9500003;
 	private static final int _n = 13267421;
 	private int _privateKey;
 	
